@@ -1,0 +1,9 @@
+H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.csprojResolveAssemblyReference.cache
+H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana_Word_Game.frmMarganaMain.resources
+H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana_Word_Game.Properties.Resources.resources
+H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.csproj.GenerateResource.Cache
+H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\Margana Word Game.exe.config
+H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\Margana Word Game.exe
+H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\Margana Word Game.pdb
+H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.exe
+H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.pdb
