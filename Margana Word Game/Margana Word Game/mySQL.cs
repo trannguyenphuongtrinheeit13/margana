@@ -13,7 +13,7 @@ namespace Margana_Word_Game
 
         public mySQL()
         {
-            _OpenConnection();
+
         }
 
         public MySqlConnection _OpenConnection(){
@@ -26,8 +26,8 @@ namespace Margana_Word_Game
             return cmv_connection; //return connection
         }
 
-        public void _closeConnection(MySqlConnection _connection){
-            _connection.Close(); //close mysql connection
+        public void _closeConnection(){
+            cmv_connection.Close(); //close mysql connection
         }
     }
 }

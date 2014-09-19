@@ -19,8 +19,8 @@ namespace Margana_Word_Game
 
         private void englishToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            mySQL lc_mySQLConnection = new mySQL(); //create mysql connection 
-
+            mySQL lc_mySQLConnection = new mySQL(); //create class instance 
+            lc_mySQLConnection._OpenConnection(); //create sql connection
             lc_mySQLConnection._closeConnection(); //close mysql connection   
         }
     }
