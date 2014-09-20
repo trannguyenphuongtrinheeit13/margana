@@ -23,5 +23,10 @@ namespace Margana_Word_Game
             lc_mySQLConnection._OpenConnection(); //create sql connection
             lc_mySQLConnection._closeConnection(); //close mysql connection   
         }
+
+        private void gameTimer_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }

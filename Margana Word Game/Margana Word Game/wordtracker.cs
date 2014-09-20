@@ -2,6 +2,7 @@
  * Russell Chamunorwa Mazonde
  * small class for adding used words to a list
  * also checks if a word has been used before
+ * untested
  * */
 
 using System;
@@ -21,11 +22,12 @@ namespace Margana_Word_Game
 
         }
 
-        private  void _addNewWord(string _word){
+        public void _addNewWord(string _word)
+        {
             cmv_UsedWords.Add(_word); //add 
         }
 
-        private Boolean _checkWordUsed(string _word)
+        public Boolean _checkWordUsed(string _word)
         {
             foreach(string cmv_check in cmv_UsedWords){
                 if (cmv_check == _word)
@@ -35,7 +37,7 @@ namespace Margana_Word_Game
             return false;
         }
 
-        private void _clearList()
+        public void _clearList()
         {
             cmv_UsedWords.Clear(); // empty the list
         }

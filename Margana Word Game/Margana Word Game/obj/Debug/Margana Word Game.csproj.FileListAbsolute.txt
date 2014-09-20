@@ -5,6 +5,6 @@ H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.
 H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\Margana Word Game.exe.config
 H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\Margana Word Game.exe
 H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\Margana Word Game.pdb
+H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\MySql.Data.dll
 H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.exe
 H:\personal_git\Margana Word Game\Margana Word Game\obj\Debug\Margana Word Game.pdb
-H:\personal_git\Margana Word Game\Margana Word Game\bin\Debug\MySql.Data.dll
