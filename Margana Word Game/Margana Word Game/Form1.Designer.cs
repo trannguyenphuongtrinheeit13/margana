@@ -97,26 +97,27 @@
             // afrikaansToolStripMenuItem
             // 
             this.afrikaansToolStripMenuItem.Name = "afrikaansToolStripMenuItem";
-            this.afrikaansToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.afrikaansToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.afrikaansToolStripMenuItem.Text = "Afrikaans";
+            this.afrikaansToolStripMenuItem.Click += new System.EventHandler(this.afrikaansToolStripMenuItem_Click);
             // 
             // englishToolStripMenuItem
             // 
             this.englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            this.englishToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.englishToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.englishToolStripMenuItem.Text = "English";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
             // germanToolStripMenuItem
             // 
             this.germanToolStripMenuItem.Name = "germanToolStripMenuItem";
-            this.germanToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.germanToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.germanToolStripMenuItem.Text = "German";
             // 
             // portugueseToolStripMenuItem
             // 
             this.portugueseToolStripMenuItem.Name = "portugueseToolStripMenuItem";
-            this.portugueseToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.portugueseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.portugueseToolStripMenuItem.Text = "Portuguese";
             // 
             // pauseGameToolStripMenuItem
@@ -152,6 +153,7 @@
             this.btnSubmit.TabIndex = 5;
             this.btnSubmit.Text = "Submit Word";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
             // btnScrambleWord
             // 

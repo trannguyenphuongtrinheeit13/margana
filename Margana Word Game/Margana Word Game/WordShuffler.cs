@@ -17,13 +17,13 @@ namespace Margana_Word_Game
     {
         char cmv_randomLetter;
         string cmv_temp = "";
-        Random cmv_radomize;
+        Random cmv_radomize = new Random();
         string cmv_scrambledWord = "";
         string cmv_word;
    
         public WordShuffler(string _word)
         {
-            this.cmv_word = _word;
+            cmv_word = _word;
         }
 
         public string scramble()
@@ -42,7 +42,7 @@ namespace Margana_Word_Game
                 {
                     if ((cmv_word[i]) == cmv_randomLetter)
                     {// check if word being iterated in for loop is the random letter picked before
-                        cmv_temp = cmv_word.Remove(i); //remove letter at position
+                        cmv_temp = cmv_word.Remove(i,1); //remove letter at position
                         cmv_word = cmv_temp; //assign new word that has one less letter to _word variable
                         cmv_temp = ""; //clear temp
                         break;

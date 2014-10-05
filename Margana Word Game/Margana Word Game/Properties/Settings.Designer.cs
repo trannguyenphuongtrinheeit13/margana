@@ -61,7 +61,7 @@ namespace Margana_Word_Game.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("XXX")]
+        [global::System.Configuration.DefaultSettingValueAttribute("494jsdUIsdfooi()JKsdf")]
         public string password {
             get {
                 return ((string)(this["password"]));

@@ -44,15 +44,15 @@ namespace Margana_Word_Game
                 cmv_connection.Close(); //close mysql connection
         }
 
-        public string _getRandomWord(string _lang)
+        public MySqlDataReader _getWords(string _lang)
         { //get a random word from the list of words 
-            string lc_sqlQuery = "SELECT `word` FROM `margana`.`words` WHERE `lang`='@lang' ORDER BY RAND() LIMIT 1;";
+            string lc_sqlQuery = "SELECT `word` FROM `margana`.`words` WHERE `lang`=@lang ORDER BY RAND();";
             MySqlCommand lc_cmd = new MySqlCommand(lc_sqlQuery, cmv_connection);
-            lc_cmd.Prepare();
+            //lc_cmd.Prepare();
 
             lc_cmd.Parameters.AddWithValue("@lang", _lang);
             MySqlDataReader lc_sqlResult = lc_cmd.ExecuteReader();
-            return lc_sqlResult.GetString(0); //get the word and return it
+            return lc_sqlResult; //get the word and return it
         }
     }
 }

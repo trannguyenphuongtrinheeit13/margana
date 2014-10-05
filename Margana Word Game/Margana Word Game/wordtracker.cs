@@ -15,7 +15,7 @@ namespace Margana_Word_Game
 {
     class wordtracker
     {
-        List<string> cmv_UsedWords = new List<string>(); //we use this list to keep track of words used
+        Queue<string> cmv_UsedWords = new Queue<string>(); //we use this list to keep track of words used
 
         public wordtracker()
         {
@@ -24,17 +24,22 @@ namespace Margana_Word_Game
 
         public void _addNewWord(string _word)
         {
-            cmv_UsedWords.Add(_word); //add 
+            cmv_UsedWords.Enqueue(_word); //add item to queue
         }
 
-        public Boolean _checkWordUsed(string _word)
+        public string getNextWord()
         {
-            foreach(string cmv_check in cmv_UsedWords){
-                if (cmv_check == _word)
-                    //word exists in list
-                    return true;
-            }
-            return false;
+            //read from top to bottom
+            if (cmv_UsedWords.Count != 0)
+                return cmv_UsedWords.Peek();
+            else
+                return null;
+        }
+
+        public void dequeueWord()
+        {
+            if (cmv_UsedWords.Count != 0)
+                cmv_UsedWords.Dequeue(); // remove word at top of queue
         }
 
         public void _clearList()
